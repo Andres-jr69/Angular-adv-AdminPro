@@ -14,7 +14,7 @@ export const routes: Routes = [
     children: [
       { path: '' , component: DashboardComponent },
       { path: 'progress', component: ProgressComponent },
-      { path: 'grafica', component: Grafica1Component },
+      { path: 'grafica1', component: Grafica1Component },
       /* { path: '', redirectTo: 'dashboard', pathMatch: 'full' }, */
     ]
   },
